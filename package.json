@@ -1,0 +1,62 @@
+{
+    "name": "vscode-google-rich-snippets",
+    "displayName": "Google Rich Snippets",
+    "description": "Google Rich Snippets extension for VSCode",
+    "version": "1.0.0",
+    "author": {
+        "name": "Yulio Aleman",
+        "email": "yulioaj290@gmail.com"
+    },
+    "publisher": "yulioaj290",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.9.1"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yulioaj290/vscode-google-rich-snippets"
+    },
+    "galleryBanner": {
+        "color": "#1E81C1",
+        "theme": "light"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "tags": [
+        "vscode",
+        "VSCode",
+        "Visual Studio Code",
+        "Snippets",
+        "Google Rich Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
