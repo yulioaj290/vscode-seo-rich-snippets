@@ -1,0 +1,1 @@
+# vscode-google-rich-snippets
