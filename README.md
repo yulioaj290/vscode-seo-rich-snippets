@@ -1,12 +1,12 @@
-# Google Rich Snippets
+# SEO Rich Snippets
 -------------------
 
-This extension contains snippets for Google Rich Snippets in JSON-LD format for [Visual Studio Code][code] editor.
+This extension contains snippets for Rich Snippets in JSON-LD format for [Visual Studio Code][code] editor.
 
 ## Installation
 
 In order to install an extension you need to open the Extensions Tab in Sidebar (Ctrl + Shift + X or Cmd + Shift + X).
-You can manage your installed extensions there or install new ones. Search for *Google Rich Snippets* and install it.
+You can manage your installed extensions there or install new ones. Search for *SEO Rich Snippets* and install it.
 
 ## Supported languages (file extensions)
 

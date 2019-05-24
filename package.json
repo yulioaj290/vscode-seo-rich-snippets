@@ -1,7 +1,7 @@
 {
-    "name": "vscode-google-rich-snippets",
-    "displayName": "Google Rich Snippets",
-    "description": "Google Rich Snippets extension for VSCode",
+    "name": "vscode-seo-rich-snippets",
+    "displayName": "SEO Rich Snippets",
+    "description": "SEO Rich Snippets extension for VSCode",
     "version": "1.0.0",
     "author": {
         "name": "Yulio Aleman",
@@ -15,7 +15,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yulioaj290/vscode-google-rich-snippets"
+        "url": "https://github.com/yulioaj290/vscode-seo-rich-snippets"
     },
     "galleryBanner": {
         "color": "#1E81C1",
@@ -29,7 +29,7 @@
         "VSCode",
         "Visual Studio Code",
         "Snippets",
-        "Google Rich Snippets"
+        "SEO Rich Snippets"
     ],
     "contributes": {
         "snippets": [
