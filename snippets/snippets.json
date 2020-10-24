@@ -205,5 +205,34 @@
         ],
         "description": "SEO Rich Snippet for Articles",
         "scope": "text.html"
+    },
+    "rsper": {
+        "prefix": "rsper",
+        "body": [
+            "{"
+            "\t\"@context\": \"https://schema.org\",",
+            "\t\"@type\": \"Person\",",
+            "\t\"address\": {",
+            "\t\t\"@type\": \"PostalAddress\",",
+            "\t\t\"addressLocality\": \"${1:Seattle}\",",
+            "\t\t\"addressRegion\": \"${2:WA}\",",
+            "\t\t\"postalCode\": \"${3:98052}\",",
+            "\t\t\"streetAddress\": \"${4:20341 Whitworth Institute 405 N. Whitworth}\"",
+            "\t},",
+            "\t\"colleague\": [",
+            "\t\t\"${5:http://www.xyz.edu/students/alicejones.html}\",",
+            "\t\t\"${6:http://www.xyz.edu/students/bobsmith.html}\"",
+            "\t],",
+            "\t\"email\": \"${7:mailto:jane-doe@xyz.edu}\",",
+            "\t\"image\": \"${8:janedoe.jpg}\",",
+            "\t\"jobTitle\": \"${9:Professor}\",",
+            "\t\"name\": \"${10:Jane Doe}\",",
+            "\t\"telephone\": \"${11:(425) 123-4567}\",",
+            "\t\"url\": \"${12:http://www.janedoe.com}\"",
+            "}"
+
+        ],
+        "description": "SEO Rich Snippet for Person",
+        "scope": "text.html"
     }
 }
