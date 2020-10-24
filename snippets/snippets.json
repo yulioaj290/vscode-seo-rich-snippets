@@ -234,5 +234,40 @@
         ],
         "description": "SEO Rich Snippet for Person",
         "scope": "text.html"
+    },
+    "rsinv": {
+        "prefix": "rsinv",
+        "body": [
+            "{",
+            "\t\"@context\": \"https://schema.org/\",",
+            "\t\"@type\": \"Invoice\",",
+            "\t\"description\": \"${1:January 2015 Visa bill.}\",",
+            "\t\"url\": \"${2:http://acmebank.com/invoice.pdf}\",",
+            "\t\"broker\": {",
+            "\t\t\"@type\": \"BankOrCreditUnion\",",
+            "\t\t\"name\": \"${3:ACME Bank}\"",
+            "\t},",
+            "\t\"accountId\": \"${4:xxxx-xxxx-xxxx-1234}\",",
+            "\t\"customer\": {",
+            "\t\t\"@type\": \"Person\",",
+            "\t\t\"name\": \"${5:Jane Doe}\"",
+            "\t},",
+            "\t\"paymentDueDate\": \"${6:2015-01-30T12:00:00}\",",
+            "\t\"minimumPaymentDue\": {",
+            "\t\t\"@type\": \"PriceSpecification\",",
+            "\t\t\"price\": ${7:15.0},",
+            "\t\t\"priceCurrency\": \"${8:USD}\"",
+            "\t},",
+            "\t\"totalPaymentDue\": {",
+            "\t\t\"@type\": \"PriceSpecification\",",
+            "\t\t\"price\": ${9:200.0},",
+            "\t\t\"priceCurrency\": \"${10:USD}\"",
+            "\t},",
+            "\t\"billingPeriod\": \"${11:P30D}\",",
+            "\t\"paymentStatus\": \"https://schema.org/PaymentDue\"",
+            "}"
+        ],
+        "description": "SEO Rich Snippet for Invoice",
+        "scope": "text.html"
     }
 }
