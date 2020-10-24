@@ -30,6 +30,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `rsvid→`   | insert rich snippet for `Videos`|
 | `rsart→`   | insert rich snippet for `Articles`|
 | `rsper→`   | insert rich snippet for `Person`|
+| `rsinv→`   | insert rich snippet for `Invoice`|
 
 
 [code]: https://code.visualstudio.com/
